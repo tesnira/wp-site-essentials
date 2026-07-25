@@ -1,0 +1,105 @@
+/* WP Site Essentials — 后台设置页 */
+
+.wpse-wrap .wpse-panel {
+	display: none;
+	margin-top: 1rem;
+}
+
+.wpse-wrap .wpse-panel.is-active {
+	display: block;
+}
+
+.wpse-cleanup-box {
+	margin-top: 1.5rem;
+	padding: 1rem 1.25rem;
+	max-width: 48rem;
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.wpse-cleanup-opt {
+	display: block;
+	margin: 0.5rem 0;
+}
+
+.wpse-cleanup-progress {
+	margin-top: 1rem;
+	height: 16px;
+	background: #eee;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.wpse-cleanup-bar {
+	height: 100%;
+	width: 0;
+	background: #2271b1;
+	transition: width 0.2s ease;
+}
+
+.wpse-cleanup-log {
+	margin-top: 1rem;
+	padding: 0.75rem;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	min-height: 2rem;
+}
+
+.wpse-cleanup-log div {
+	margin: 0.15rem 0;
+}
+
+.wpse-pt-group {
+	margin: 0.75rem 0 1rem;
+}
+
+.wpse-pt-group__title {
+	margin: 0 0 0.35rem;
+}
+
+.wpse-pt-group__list {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.wpse-pt-opt {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35rem;
+	min-width: 14rem;
+	margin: 0.25rem 1rem 0.25rem 0;
+	vertical-align: top;
+}
+
+.wpse-pt-opt__label {
+	font-weight: 600;
+}
+
+.wpse-pt-opt__count {
+	color: #646970;
+	font-size: 12px;
+}
+
+.wpse-cleanup-section {
+	margin: 1.25rem 0;
+	padding-top: 0.25rem;
+}
+
+.wpse-cleanup-section__head {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.5rem 1rem;
+	margin: 0 0 0.35rem;
+}
+
+.wpse-cleanup-quick {
+	font-size: 13px;
+}
+
+.wpse-cleanup-actions {
+	margin-top: 1.25rem;
+}
